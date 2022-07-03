@@ -68,13 +68,20 @@ const routes = [
                 },
                 component: () => import ( /* webpackChunkName: "i18n" */ "../views/I18n.vue")
             }, {
-                path: "/upload",
-                name: "upload",
+                path: "/img_cluster",
+                name: "img_cluster",
                 meta: {
-                    title: '上传插件'
+                    title: '图片聚类'
                 },
-                component: () => import ( /* webpackChunkName: "upload" */ "../views/Upload.vue")
+                component: () => import ( /* webpackChunkName: "upload" */ "../views/Img_cluster.vue")
             }, {
+                path: "/video_frame",
+                name: "video_frame",
+                meta: {
+                    title: '视频拆帧'
+                },
+                component: () => import ( /* webpackChunkName: "upload" */ "../views/VideoFrame.vue")
+            },{
                 path: "/icon",
                 name: "icon",
                 meta: {

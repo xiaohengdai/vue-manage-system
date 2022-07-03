@@ -53,31 +53,59 @@ export default {
                 index: "/tabs",
                 title: "tab选项卡",
             },
+            // {
+            //     icon: "el-icon-lx-calendar",
+            //     index: "3",
+            //     title: "表单相关",
+            //     subs: [
+            //         {
+            //             index: "/form",
+            //             title: "基本表单",
+            //         },
+            //         {
+            //             index: "/upload",
+            //             title: "文件上传",
+            //         },
+            //         {
+            //             index: "4",
+            //             title: "三级菜单",
+            //             subs: [
+            //                 {
+            //                     index: "/editor",
+            //                     title: "富文本编辑器",
+            //                 },
+            //             ],
+            //         },
+            //     ],
+            // },
             {
                 icon: "el-icon-lx-calendar",
                 index: "3",
-                title: "表单相关",
+                title: "调试工具",
                 subs: [
                     {
-                        index: "/form",
-                        title: "基本表单",
+                        index: "/img_cluster",
+                        title: "图片聚类",
                     },
                     {
-                        index: "/upload",
-                        title: "文件上传",
-                    },
-                    {
-                        index: "4",
-                        title: "三级菜单",
-                        subs: [
-                            {
-                                index: "/editor",
-                                title: "富文本编辑器",
-                            },
-                        ],
-                    },
+                        index: "/video_frame",
+                        title: "视频拆帧",
+                    }
+
                 ],
             },
+            // {
+            //     icon: "el-icon-lx-calendar",
+            //     index: "3",
+            //     title: "调试工具",
+            //     subs: [
+            //         {
+            //             index: "/video_frame",
+            //             title: "视频拆帧",
+            //         },
+            //
+            //     ],
+            // },
             {
                 icon: "el-icon-lx-emoji",
                 index: "/icon",

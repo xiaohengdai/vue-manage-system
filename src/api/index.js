@@ -7,3 +7,14 @@ export const fetchData = query => {
         params: query
     });
 };
+
+export const fetchDebugVideoFrame=query=>{
+
+    return request({
+        url: '/video/videoFrame',
+        method: 'POST',
+        params: query
+    });
+}
+
+
